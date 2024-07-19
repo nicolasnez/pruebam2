@@ -7,7 +7,10 @@
     <meta name="author" content="nicolas nunez">
     <meta name="description" content="html, css, JavaScript, Jquery">
 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <!--Bootstrap estilos-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -24,13 +27,13 @@
     <title>Prueba</title>
 </head>
 
-<body onload="mostrarFechaActualizable();">
+<body class="font">
     <!--inicio nav-->
     <nav class="navbar navbar-expand-lg bg-transparent sticky-top" data-bs-theme="dark">
         <div class="container">
             <a class="navbar-brand text-dark d-flex " href="index.html">
                 <img class="logo" src="assets/img/viajes.svg" alt="logo">
-                <h3 class="my-2">Viajes Chile</h3>
+                <h3 class="my-2 text-light fw-light">Viajes Chile</h3>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,12 +58,12 @@
         </div>
     </nav>
     <!--fin nav-->
-    <!--inicio main-->
-    <main>
-        <!--inicio carrousel-->
-        <section>
 
-            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel"> <!-- bata-bs-ride hace que el carrousel sea automatico-->
+    <!--inicio carrousel-->
+    <section>
+        <header>
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <!-- bata-bs-ride hace que el carrousel sea automatico-->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="llamas">
@@ -83,53 +86,120 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        </section>
-        <!--fin carrousel-->
-        <!--inicio quienes somos-->
-        <section class="container mt-4">
-            <h2 class="text-center">QUIÉNES SOMOS</h2>
-            <hr>
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <a class="nav-link text-light bg-dark text-center" href="http://www.github.com/" target="_blank">
-                        <i class="fa-solid fa-plane"></i>
+        </header>
+
+    </section>
+    <!--fin carrousel-->
+    <!--inicio main-->
+    <main>
+        <!--inicio QUIENES SOMOS-->
+        <section class="container-fluid bg-black py-4 px-5 mx-auto text-light d-none d-md-block fs-6 fw-light">
+            <h3 class="text-center fw-light">¿QUIÉNES SOMOS?</h3>
+            <hr class="border border-light border-1 opacity-25">
+            <div class="row mx-2">
+                <div class="col-12 col-md-4 fs-6">
+                    <a class="nav-link text-light bg-info text-center">
+                        <i class="fa-solid fa-plane fa-2x"></i>
                     </a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam voluptatum doloribus accusantium, magnam porro reiciendis quia assumenda nesciunt excepturi similique necessitatibus dicta voluptatem hic, recusandae et inventore! Laborum, qui quasi! Aut exercitationem ea dolorem ratione iusto voluptatum, eum, nulla qui amet nemo beatae! Modi, ullam recusandae. Ut mollitia deserunt tenetur voluptatum adipisci laboriosam deleniti explicabo eaque nobis, consectetur reprehenderit quaerat? Eveniet a possimus labore. Illum iure maxime soluta doloribus ut quas molestiae. Placeat officia provident eligendi non ex. Harum, ipsa?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore minus, voluptate repellat eum
+                        eligendi quod magnam dolor ducimus nulla totam veritatis blanditiis, vitae quo saepe velit harum
+                        maiores, aspernatur tenetur eaque? Expedita repellendus rerum, totam fugit iure eveniet, illum
+                        assumenda nostrum asperiores doloribus ipsam. Esse earum corrupti aliquid dolorem, illum
+                        dignissimos, sunt odio dolore cum soluta porro similique aspernatur temporibus. Eligendi earum,
+                        reiciendis, hic praesentium modi necessitatibus atque excepturi sequi illum nesciunt, possimus
+                        perspiciatis beatae?</p>
                 </div>
-                <div class="col12 col-md-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam voluptatum doloribus accusantium, magnam porro reiciendis quia assumenda nesciunt excepturi similique necessitatibus dicta voluptatem hic, recusandae et inventore! Laborum, qui quasi! Aut exercitationem ea dolorem ratione iusto voluptatum, eum, nulla qui amet nemo beatae! Modi, ullam recusandae. Ut mollitia deserunt tenetur voluptatum adipisci laboriosam deleniti explicabo eaque nobis, consectetur reprehenderit quaerat? Eveniet a possimus labore. Illum iure maxime soluta doloribus ut quas molestiae. Placeat officia provident eligendi non ex. Harum, ipsa?</p>
+                <div class="col-12 col-md-4">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa nihil quidem, qui minus quaerat
+                        adipisci maxime quos, sit aliquam quo et aliquid. Quia in obcaecati inventore tempora et
+                        perferendis corrupti nulla, at atque mollitia expedita quaerat, illo nisi dolorem totam iste
+                        repellendus exercitationem id velit, deserunt provident similique optio ut! Non ut eius
+                        voluptatum fugiat dolorum, distinctio rerum aliquam reprehenderit iusto? Illum ex, nostrum
+                        asperiores, cumque veniam praesentium corporis repellat omnis, aperiam maxime ducimus. Debitis!
+                    </p>
+                    <a class="nav-link text-light bg-info text-center">
+                        <i class="fa-solid fa-mountain fa-2x"></i>
+                    </a>
                 </div>
-                <div class="col12 col-md-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam voluptatum doloribus accusantium, magnam porro reiciendis quia assumenda nesciunt excepturi similique necessitatibus dicta voluptatem hic, recusandae et inventore! Laborum, qui quasi! Aut exercitationem ea dolorem ratione iusto voluptatum, eum, nulla qui amet nemo beatae! Modi, ullam recusandae. Ut mollitia deserunt tenetur voluptatum adipisci laboriosam deleniti explicabo eaque nobis, consectetur reprehenderit quaerat? Eveniet a possimus labore. Illum iure maxime soluta doloribus ut quas molestiae. Placeat officia provident eligendi non ex. Harum, ipsa?</p>
+                <div class="col-12 col-md-4">
+                    <a class="nav-link text-light bg-info text-center">
+                        <i class="fa-solid fa-route fa-2x"></i>
+                    </a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, necessitatibus! Odit iusto
+                        neque qui asperiores incidunt tempora accusamus alias, vitae ullam recusandae similique facilis
+                        culpa nostrum assumenda architecto eum molestias error, dolor doloremque atque veniam? Excepturi
+                        ab suscipit similique magnam ad porro eaque natus unde facere earum, amet asperiores aperiam et
+                        aliquam consequuntur quasi fugit harum fuga nulla? Exercitationem dolore eos quos! Labore
+                        voluptatum cumque ipsa voluptate odio nulla distinctio, quia asperiores nisi ea a?</p>
                 </div>
 
             </div>
-           
-
-           
 
         </section>
-        <!--fin quienes somos-->
-        <section></section>
-        <section></section>
-
-
+        <!--fin QUIENES SOMOS-->
+        <!--inicio DESTACADOS-->
+        <section class="container-fluid bg-black py-4 px-5 mx-auto text-light fs-6 fw-light">
+            <div class="row mx-2">
+                <h3 class="text-center fw-light text-light py-2">DESTACADOS</h3>
+                <hr class="border border-light border-1 opacity-25">
+                <div class="col-12 col-md-3 ">
+                    <div class="card bg-info text-light" style="width: 17rem;">
+                        <img class="img-fluid" src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title">Lorem ipsum dolor sit amet.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                                cupiditate doloribus sint fuga impedit nostrum velit delectus, numquam provident illo?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card bg-info text-light" style="width: 17rem;">
+                        <img class="img-fluid" src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title">Lorem ipsum dolor sit amet.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+                                tempora sapiente nihil ipsum dicta dolorem officia rerum eveniet unde recusandae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card bg-info text-light" style="width: 17rem;">
+                        <img class="img-fluid" src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title">Lorem ipsum dolor sit amet.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+                                obcaecati nam culpa eveniet beatae aut illo possimus illum asperiores corrupti.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card bg-info text-light" style="width: 17rem;">
+                        <img class="img-fluid" src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title">Lorem ipsum dolor sit amet.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit sed
+                                culpa enim magnam aut doloribus dolorem modi consectetur accusantium voluptates.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fin DESTACADOS-->
+        
     </main>
     <!--fin main-->
     <!--Inicio Footer-->
-    <footer class="container-fluid bg-dark pt-4 mt-2">
+    <footer class="container-fluid pt-3 bg-info">
         <div class="row text-light">
-            <div class="col-12 col-md-6 mb-4 text-center">
-                <h4 >VIAJES CHILE</h4>
+            <div class="col-12 col-md-6 text-center">
+                <h4 class="fw-light pt-3">VIAJES CHILE</h4>
             </div>
-
             <div class="col-12 col-md-6 mb-4 ">
-
                 <div class="card-footer border-0">
-
                     <ul class="nav justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link text-light fa-2x" href="#"><i class="fa-brands fa-github"></i></a>
+                            <a class="nav-link text-light fa-2x" href="#"><i class="fa-brands fa-square-github"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light fa-2x" href="#"><i class="fa-brands fa-linkedin"></i></a>
