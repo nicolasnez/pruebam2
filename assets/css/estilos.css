@@ -1,6 +1,48 @@
+:root {
+    --main-color: #0dc7f0;
+}
 
 
-
-.logo{
+.logo {
     width: 50px;
+}
+
+.font {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.card1 {
+    background-image: url("../img/card1.jpg");
+}
+
+.card2 {
+    background-image: url("../img/card2.jpg");
+}
+
+.card3 {
+    background-image: url("../img/card3.jpg");
+}
+
+.card4 {
+    background-image: url("../img/card4.jpg");
+}
+
+.mis-cards{
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2%;
+    border-color: transparent;
+}
+.navbar {  
+    position: fixed; /* posición del navbar */
+    width: 100%;
+    z-index: 1000;
+}
+
+.carousel-item img {
+    height: 100%; /* Ajusta la altura de la imagen al alto de la ventana */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
 }
