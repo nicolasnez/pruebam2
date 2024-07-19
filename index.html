@@ -28,42 +28,41 @@
 </head>
 
 <body class="font">
-    <!--inicio nav-->
-    <nav class="navbar navbar-expand-lg bg-transparent sticky-top" data-bs-theme="dark">
-        <div class="container">
-            <a class="navbar-brand text-dark d-flex " href="index.html">
-                <img class="logo" src="assets/img/viajes.svg" alt="logo">
-                <h3 class="my-2 text-light fw-light">Viajes Chile</h3>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto fs-5">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#quienessomos">Quienes Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#destacados">Destacados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#contacto">Contacto</a>
-                    </li>
-                </ul>
+    <header>
+        <!--el nav esta junto con el carrousel en el header-->
+        <!--inicio nav-->
+        <nav class="navbar navbar-expand-lg bg-transparent sticky-top" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand text-dark d-flex " href="index.html">
+                    <img class="logo" src="assets/img/viajes.svg" alt="logo">
+                    <h3 class="my-2 text-light">Viajes Chile</h3>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto fs-5">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#quienessomos">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#destacados">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <!--fin nav-->
-
-    <!--inicio carrousel-->
-    <section>
-        <header>
+        </nav>
+        <!--fin nav-->
+        <!--inicio carrousel-->
+        <div class="position-relative">
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-                <!-- bata-bs-ride hace que el carrousel sea automatico-->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="llamas">
@@ -86,22 +85,23 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        </header>
-
-    </section>
-    <!--fin carrousel-->
+        </div>
+        <!--fin carrousel-->
+    </header>
     <!--inicio main-->
     <main>
         <!--inicio QUIENES SOMOS-->
-        <section class="container-fluid bg-black py-4 px-5 mx-auto text-light d-none d-md-block fs-6 fw-light">
+        <section id="quienessomos" class="container-fluid bg-black py-4 px-5 mx-auto text-light d-none d-md-block fs-6 fw-light">
             <h3 class="text-center fw-light">¿QUIÉNES SOMOS?</h3>
             <hr class="border border-light border-1 opacity-25">
             <div class="row mx-2">
                 <div class="col-12 col-md-4 fs-6">
                     <a class="nav-link text-light bg-info text-center">
-                        <i class="fa-solid fa-plane fa-2x"></i>
+                       
+                            <i class="fa-solid fa-plane fa-2x"></i></button>
                     </a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore minus, voluptate repellat eum
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore minus, voluptate
+                        repellat eum
                         eligendi quod magnam dolor ducimus nulla totam veritatis blanditiis, vitae quo saepe velit harum
                         maiores, aspernatur tenetur eaque? Expedita repellendus rerum, totam fugit iure eveniet, illum
                         assumenda nostrum asperiores doloribus ipsam. Esse earum corrupti aliquid dolorem, illum
@@ -110,7 +110,8 @@
                         perspiciatis beatae?</p>
                 </div>
                 <div class="col-12 col-md-4">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa nihil quidem, qui minus quaerat
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa nihil quidem, qui
+                        minus quaerat
                         adipisci maxime quos, sit aliquam quo et aliquid. Quia in obcaecati inventore tempora et
                         perferendis corrupti nulla, at atque mollitia expedita quaerat, illo nisi dolorem totam iste
                         repellendus exercitationem id velit, deserunt provident similique optio ut! Non ut eius
@@ -118,14 +119,17 @@
                         asperiores, cumque veniam praesentium corporis repellat omnis, aperiam maxime ducimus. Debitis!
                     </p>
                     <a class="nav-link text-light bg-info text-center">
-                        <i class="fa-solid fa-mountain fa-2x"></i>
+                       
+                            <i class="fa-solid fa-mountain fa-2x"></i></button>
                     </a>
                 </div>
                 <div class="col-12 col-md-4">
                     <a class="nav-link text-light bg-info text-center">
-                        <i class="fa-solid fa-route fa-2x"></i>
+                      
+                            <i class="fa-solid fa-route fa-2x"></i></button>
                     </a>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, necessitatibus! Odit iusto
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+                        necessitatibus! Odit iusto
                         neque qui asperiores incidunt tempora accusamus alias, vitae ullam recusandae similique facilis
                         culpa nostrum assumenda architecto eum molestias error, dolor doloremque atque veniam? Excepturi
                         ab suscipit similique magnam ad porro eaque natus unde facere earum, amet asperiores aperiam et
@@ -138,13 +142,13 @@
         </section>
         <!--fin QUIENES SOMOS-->
         <!--inicio DESTACADOS-->
-        <section class="container-fluid bg-black py-4 px-5 mx-auto text-light fs-6 fw-light">
-            <div class="row mx-2">
+        <section id="destacados" class="container-fluid bg-black text-light fs-6 fw-light">
+            <div class="row justify-content-center mx-4">
                 <h3 class="text-center fw-light text-light py-2">DESTACADOS</h3>
                 <hr class="border border-light border-1 opacity-25">
-                <div class="col-12 col-md-3 ">
-                    <div class="card bg-info text-light" style="width: 17rem;">
-                        <img class="img-fluid" src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                <div class="col-12 col-md-3 py-3">
+                    <div class="card h-100 bg-info text-light " style="width: 16rem;">
+                        <div class="card1 mis-cards"></div>
                         <div class="card-body">
                             <p class="card-title">Lorem ipsum dolor sit amet.</p>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
@@ -153,9 +157,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3">
-                    <div class="card bg-info text-light" style="width: 17rem;">
-                        <img class="img-fluid" src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                <div class="col-12 col-md-3 py-3">
+                    <div class="card h-100 bg-info text-light" style="width: 16rem;">
+                        <div class="card2 mis-cards"></div>
                         <div class="card-body">
                             <p class="card-title">Lorem ipsum dolor sit amet.</p>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
@@ -163,9 +167,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3">
-                    <div class="card bg-info text-light" style="width: 17rem;">
-                        <img class="img-fluid" src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                <div class="col-12 col-md-3 py-3">
+                    <div class="card h-100 bg-info text-light" style="width: 16rem;">
+                        <div class="card3 mis-cards"></div>
                         <div class="card-body">
                             <p class="card-title">Lorem ipsum dolor sit amet.</p>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
@@ -173,9 +177,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3">
-                    <div class="card bg-info text-light" style="width: 17rem;">
-                        <img class="img-fluid" src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                <div class="col-12 col-md-3 py-3">
+                    <div class="card h-100 bg-info text-light" style="width: 16rem;">
+                        <div class="card4 mis-cards"></div>
                         <div class="card-body">
                             <p class="card-title">Lorem ipsum dolor sit amet.</p>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit sed
@@ -187,24 +191,27 @@
         </section>
         <!--fin DESTACADOS-->
         <!--inicio CONTACTO-->
-        <section class="container-fluid bg-black py-4 px-5 mx-auto fw-light">
+        <section id="contacto" class="container-fluid bg-black py-4 px-5 mx-auto fw-light">
             <div class="row">
                 <div class="col-12 d-block">
                     <h3 class="fw-light text-light text-center">CONTACTO</h3>
                     <hr class="border border-light border-1 opacity-25">
                     <div class="mb-3 text-light px-3">
                         <label for="nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="nombre">
+                        <input type="text" class="form-control" id="nombre" required>
                     </div>
                     <div class="mb-3 text-light px-3">
                         <label for="asunto" class="form-label">Asunto</label>
-                        <input type="text" class="form-control" id="asunto">
+                        <input type="text" class="form-control" id="asunto" required>
                     </div>
                     <div class="mb-3 text-light px-3">
                         <label for="mensaje" class="form-label">Mensaje</label>
                         <textarea class="form-control" id="mensaje" rows="3"></textarea>
                     </div>
-                    <button type="button" class="btn btn-info text-light ms-3">Enviar</button>
+                    
+                    <input type="button" class="btn btn-info text-light ms-3" data-bs-toggle="tooltip"
+                    data-placement="right" title="Presiona para enviar tu mensaje" id="enviar" value="Enviar">
+
                 </div>
             </div>
         </section>
@@ -222,17 +229,17 @@
                 <div class="card-footer border-0">
                     <ul class="nav justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link text-light fa-2x" href="#"><i class="fa-brands fa-square-github"></i></a>
+                            <a class="nav-link text-light fa-2x" href="https://github.com/" target="_blank"><i class="fa-brands fa-square-github"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light fa-2x" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a class="nav-link text-light fa-2x" href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light fa-2x" href="#"><i
+                            <a class="nav-link text-light fa-2x" href="https://twitter.com/" target="_blank"><i
                                     class="fa-brands fa-square-twitter"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light fa-2x" href="#"><i
+                            <a class="nav-link text-light fa-2x" href="https://facebook.com/" target="_blank"><i
                                     class="fa-brands fa-square-facebook"></i></a>
                         </li>
                     </ul>
